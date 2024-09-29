@@ -1,0 +1,333 @@
+
+body {
+    background-image: url('back.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
+    object-fit: cover;
+    background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
+}
+.bodyfirst {
+    background-image: url('dd96fb2ba7c95f657ff9bbb81335b279.jpg'); /* ใส่รูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
+    object-fit: cover;
+    background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
+}
+topic2
+  {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 160px; 
+color:#ffffff;  
+display: flex; /* ใช้ flex เพื่อจัดให้อยู่ในบรรทัดเดียวกัน */
+justify-content: space-between; 
+padding: 60px;
+position: relative;
+transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
+animation: slideInFromRight 1s ease-in-out forwards;
+
+}
+nav ul {
+        padding-left: 1200px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+
+}
+
+nav ul li a {
+    font-family: "Bebas Neue", sans-serif;
+    font-style:normal;
+    font-size: 40px; 
+    color: #ffffff;
+    text-decoration: none;
+}
+.box4 {
+    width:900px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+    animation:  slideInFromRight 0.5s forwards; 
+}
+.box1 {
+    width: 700px;
+    height: 80px;
+    background-color: #FF8C9E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:  slideIn 1s forwards; 
+    transform: translateX(-100%); /* เริ่มนอกจอทางซ้าย *//* แอนิเมชันสไลด์ */ /* เว้นระยะห่างระหว่างกล่อง */
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-top: 35px;/* เพิ่มการหน่วงเวลาให้กล่องนี้ */
+}
+.box2 {
+    width:450px;
+    height: 65px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation:  slideInFromRight 1s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-left: auto;
+  }
+  .box3 {
+      width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* เว้นระยะห่างระหว่างกล่องข้อความและรูปภาพ */
+    animation:  slideIn 2s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-top: 35px;
+  }
+  .box4 {
+    width:600px;
+    height: 65px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation:  slideInFromRight 1s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-left: auto;
+}
+.box5 {
+  width: 850px;
+  height: 60px;
+  background-color: #FF8C9E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* เว้นระยะห่างระหว่างกล่องข้อความและรูปภาพ */
+  animation:  slideIn 2s forwards; 
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-top: 35px;
+}
+.box6{
+    width: 750px;
+    height: 90px;
+    background-color: #FF8C9E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:  slideInFromRight 2s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-top: 18px;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%); /* เริ่มจากด้านซ้าย */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* สไลด์เข้ามาในตำแหน่งปกติ */
+        opacity: 1;
+    }
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
+    }
+    100% {
+        transform: translateX(0); /* จบที่ตำแหน่งปกติของข้อความ */
+    }
+}
+.describe{
+    font-family:"Bebas Neue" , sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    line-height: 1.5;
+    display: inline-block; 
+    animation:  slideIn 1s forwards; 
+    transform: translateX(-100%); 
+    
+}
+.describe1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 350px;
+    animation:  slideIn 1s forwards; 
+    transform: translateX(-100%); 
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+}
+.describe2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 400px;
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideInFromRight 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 50px;
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe4{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 100px;
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideInFromRight 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe5{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    margin-left: 50px;
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe6{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    font-style:normal;
+    color: #ff6c6c;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin-left: 50px;
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe7{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    font-style:normal;
+    color: #ff6c6c;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin-left: 50px;
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.custom-video {
+    width: 1500px; /* กำหนดความกว้าง */
+    height: 550px; /* กำหนดความสูง */
+    margin: auto;
+    object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
+  }
+  .custom-video1 {
+    width: 1500px; /* กำหนดความกว้าง */
+    height: 650px; /* กำหนดความสูง */
+    margin: auto;
+    padding-top: 5px;
+    object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
+  }
+  .container {
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding-top: 20px;
+
+}
+.container1 {
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding-top: 10px;
+
+}
+.container2 {
+ padding-top: 19px;
+ object-fit: cover; 
+}
+.image1{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideIn 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+}
+.image2{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideInFromRight 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px; 
+    background-color: #ffffff;
+    color: #110391;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+
+}
+.fa-instagram{
+    cursor: pointer;
+}
+.fa-facebook{
+    cursor: pointer;
+}
+.fa-tiktok{
+    cursor: pointer;
+}
+p2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+p3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+p6{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.p4{
+    margin-right: 60px ;
+    padding-top: 10px;
+    
+}
+.p5{
+    padding: 30px;
+}
+p9{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #ff6c6c;
+}
+
