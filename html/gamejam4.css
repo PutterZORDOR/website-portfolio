@@ -26,7 +26,8 @@ justify-content: space-between;
 padding: 60px;
 position: relative;
 transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
-animation: slideInFromRight 1s ease-in-out forwards;
+animation:  slideInFromRight 1s forwards; 
+
 
 }
 .fa-instagram{
