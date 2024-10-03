@@ -1,6 +1,12 @@
+
 {
+    
     "version": 2,
+    "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
     "builds": [
+        
       {
         "src": "html/*.html",
         "use": "@vercel/static"
@@ -64,4 +70,5 @@
         "dest": "/html/student.html"
       }
     ]
+    
   }
