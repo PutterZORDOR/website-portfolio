@@ -2,15 +2,15 @@
     "version": 2,
     "builds": [
       {
-        "src": "test.html",
+        "src": "*.html",
         "use": "@vercel/static"
       },
       {
-        "src": "*test.css",
+        "src": "*.css",
         "use": "@vercel/static"
       },
       {
-        "src": "*test.js",
+        "src": "*.js",
         "use": "@vercel/static"
       },
       {
@@ -22,6 +22,8 @@
       {
         "src": "/(.*)",
         "dest": "/test.html"
+        
+        
       }
     ]
   }
