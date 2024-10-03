@@ -2,9 +2,70 @@
 {
     
     "version": 2,
-    "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-    
+    "builds": [
+        
+      {
+        "src": "html/*.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "css/*.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "js/*.js",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "images/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/html/test.html"
+      },
+      {
+        "src": "/3d-monster",
+        "dest": "/html/3d-monster.html"
+      },
+      {
+        "src": "/certificate",
+        "dest": "/html/certificate.html"
+      },
+      {
+        "src": "/drummer",
+        "dest": "/html/drummer.html"
+      },
+      {
+        "src": "/Editor design",
+        "dest": "/html/Editor design.html"
+      },
+      {
+        "src": "/gamejam4",
+        "dest": "/html/gamejam4.html"
+      },
+      {
+        "src": "/gamejamsp",
+        "dest": "/html/gamejamsp.html"
+      },
+      {
+        "src": "/pixel design",
+        "dest": "/html/pixel design.html"
+      },
+      {
+        "src": "/robot car",
+        "dest": "/html/robot car.html"
+      },
+      {
+        "src": "/sports day",
+        "dest": "/html/sports day.html"
+      },
+      {
+        "src": "/student",
+        "dest": "/html/student.html"
+      }
+    ]
     
   }
