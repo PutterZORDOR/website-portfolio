@@ -24,7 +24,7 @@
     "routes": [
       {
         "src": "/",
-        "dest": "/html/test.html"
+        "dest": "/test.html"
       },
       {
         "src": "/3d-monster",
