@@ -1,0 +1,253 @@
+body {
+    background-image: url('../img/back.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
+    object-fit: cover;
+    background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
+}
+.bodyfirst {
+    background-image: url('../img/dd96fb2ba7c95f657ff9bbb81335b279.jpg'); /* ใส่รูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
+    object-fit: cover;
+    background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
+}
+topic2
+  {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 160px; 
+color:#ffffff;  
+display: flex; /* ใช้ flex เพื่อจัดให้อยู่ในบรรทัดเดียวกัน */
+justify-content: space-between; 
+padding: 40px;
+position: relative;
+transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
+animation: slideInFromRight 1s ease-in-out forwards;
+
+}
+.box1{
+    width: 750px;
+    height: 90px;
+    background-color: #66ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:  slideInFromRight 2s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.box2 {
+    width:450px;
+    height: 65px;
+    background-color: #66ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation:  slideInFromRight 1s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-left: auto;
+  }
+.box3 {
+    width: 400px;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* เว้นระยะห่างระหว่างกล่องข้อความและรูปภาพ */
+  animation:  slideIn 2s forwards; 
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-top: 35px;
+}
+.box5 {
+    width: 850px;
+    height: 60px;
+    background-color: #9f9f9f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* เว้นระยะห่างระหว่างกล่องข้อความและรูปภาพ */
+    animation:  slideIn 2s forwards; 
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    margin-top: 30px;
+  }
+  .fa-instagram{
+    cursor: pointer;
+}
+.fa-facebook{
+    cursor: pointer;
+}
+.fa-tiktok{
+    cursor: pointer;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%); /* เริ่มจากด้านซ้าย */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* สไลด์เข้ามาในตำแหน่งปกติ */
+        opacity: 1;
+    }
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
+    }
+    100% {
+        transform: translateX(0); /* จบที่ตำแหน่งปกติของข้อความ */
+    }
+}
+nav ul {
+    padding-left: 1200px;
+list-style-type: none;
+margin-top: 35px;
+}
+
+nav ul li {
+display: inline;
+margin-right: 25px;
+
+}
+
+nav ul li a {
+font-family: "Bebas Neue", sans-serif;
+font-style:normal;
+font-size: 40px; 
+color: #ffffff;
+text-decoration: none;
+}
+.container {
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation:  slideIn 1.5s forwards; 
+    margin-top: 70px;
+
+}
+.container1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse; /* ทำให้รูปภาพอยู่ขวาและข้อความอยู่ซ้าย */
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin-right: 100px;
+    animation:  slideInFromRight 1.5s forwards; 
+    margin-top: 75px;
+
+}
+.container2 {
+    padding-top: 19px;
+    object-fit: cover; 
+   }
+.image1{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideIn 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+    margin-top: 30px;
+}
+.image2{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideInFromRight 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+
+    margin-top: 30px;
+}
+.image3{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideIn 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+
+    margin-bottom: 30px;
+}
+.image4{
+    align-items: center; /* จัดแนวกลางในแนวดิ่ง */
+    margin: 0; /* เอาระยะห่างออก */
+    display: flex; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    animation: slideInFromRight 1.5s forwards;
+    display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
+    padding: 5px;
+
+    margin-bottom: 30px;
+}
+.describe5{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    margin-left: 50px;
+    display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe7{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    font-style:normal;
+    color: #ff6c6c;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin-left: 50px;
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+  .custom-video1 {
+    width: 1500px; /* กำหนดความกว้าง */
+    height: 650px; /* กำหนดความสูง */
+    margin: auto;
+    padding-top: 25px;
+    object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
+  }
+footer {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px; 
+    background-color: #ffffff;
+    color: #110391;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+
+}
+p2 {
+    flex: 1; /* ทำให้ยืดหยุ่นและปรับตามขนาดพื้นที่ */
+    font-size: 35px; 
+    margin-left: 30px;
+}
+p1 {
+    flex: 1; /* ทำให้ยืดหยุ่นและปรับตามขนาดพื้นที่ */
+    margin-left: 150px;
+    font-size: 35px; 
+
+}
+
+.p4{
+    margin-right: 60px ;
+    padding-top: 10px;
+    
+}
+p6{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.p5{
+    padding: 15px;
+}
