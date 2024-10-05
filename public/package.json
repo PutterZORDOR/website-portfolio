@@ -1,12 +1,12 @@
 {
   "name": "web-port",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir dist && npx copyfiles \"**/*\" dist"
+    "build": "mkdir dist && xcopy * dist /s /e /i /y"
   },
-  "author": "",
-  "license": "ISC"
+  "vercel": {
+    "build": {
+      "outputDirectory": "dist"
+    }
+  }
 }
