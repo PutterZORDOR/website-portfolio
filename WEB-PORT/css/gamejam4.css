@@ -1,13 +1,13 @@
 
 body {
-    background-image: url('back.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/back.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
     background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
 }
 .bodyfirst {
-    background-image: url('dd96fb2ba7c95f657ff9bbb81335b279.jpg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/dd96fb2ba7c95f657ff9bbb81335b279.jpg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
     background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
@@ -26,8 +26,18 @@ justify-content: space-between;
 padding: 60px;
 position: relative;
 transform: translateX(100%); /* เริ่มต้นนอกจอทางขวา */
-animation: slideInFromRight 1s ease-in-out forwards;
+animation:  slideInFromRight 1s forwards; 
 
+
+}
+.fa-instagram{
+    cursor: pointer;
+}
+.fa-facebook{
+    cursor: pointer;
+}
+.fa-tiktok{
+    cursor: pointer;
 }
 nav ul {
         padding-left: 1200px;
@@ -58,7 +68,7 @@ nav ul li a {
 .box1 {
     width: 700px;
     height: 80px;
-    background-color: #c10000;
+    background-color: #050099;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +116,7 @@ nav ul li a {
 .box5 {
   width: 850px;
   height: 60px;
-  background-color: #c10000;
+  background-color: #000094;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +128,7 @@ nav ul li a {
 .box6{
     width: 750px;
     height: 90px;
-    background-color: #c10000;
+    background-color: #000094;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +156,7 @@ nav ul li a {
 }
 .describe{
     font-family:"Bebas Neue" , sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     margin: 50px;
     line-height: 1.5;
@@ -157,7 +167,7 @@ nav ul li a {
 }
 .describe1{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.5;
     margin-left: 350px;
@@ -167,32 +177,54 @@ nav ul li a {
 }
 .describe2{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.5;
-    margin-left: 400px;
+    margin-left: 300px;
     display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
     animation:  slideInFromRight 1.5s forwards; 
     transform: translateX(-100%); 
 }
 .describe3{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-style:normal;
     color: rgb(255, 255, 255);
     line-height: 1.5;
-    margin-left: 50px;
+    margin-left: 60px;
     display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe6{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    font-style:normal;
+    color: #ff6c6c;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin-left: 50px;
+    animation:  slideIn 1.5s forwards; 
+    transform: translateX(-100%); 
+}
+.describe7{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    font-style:normal;
+    color: #ff6c6c;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin-left: 50px;
     animation:  slideIn 1.5s forwards; 
     transform: translateX(-100%); 
 }
 .describe4{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     font-style:normal;
     color: rgb(255, 255, 255);
     line-height: 1.5;
-    margin-left: 50px;
+    margin-left: 350px;
     display: inline-block; /* ทำให้อยู่ในบรรทัดเดียวกับ .describe1 */
     animation:  slideInFromRight 1.5s forwards; 
     transform: translateX(-100%); 
@@ -208,30 +240,8 @@ nav ul li a {
     animation:  slideIn 1.5s forwards; 
     transform: translateX(-100%); 
 }
-.describe6, .describe7 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 35px;
-    font-style: normal;
-    color: #ff6c6c;
-    line-height: 1.5;
-    padding-top: 50px;
-    margin-left: 50px;
-    animation: slideIn 1.5s forwards; 
-    transform: translateX(-100%);
-}
-.describe8{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 60px;
-    font-style: normal;
-    color: #ff6c6c;
-    line-height: 1.5;
-    padding-top: 50px;
-    margin-left: 50px;
-    animation: slideIn 1.5s forwards; 
-    transform: translateX(-100%);
-}
 .custom-video {
-    width: 1500px; /* กำหนดความกว้าง */
+    width: 1512px; /* กำหนดความกว้าง */
     height: 550px; /* กำหนดความสูง */
     margin: auto;
     object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
@@ -242,19 +252,6 @@ nav ul li a {
     margin: auto;
     padding-top: 25px;
     object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
-  }
-  .custom-video2 {
-    width: 600px; /* กำหนดความกว้าง */
-    height: 750px; /* กำหนดความสูง */
-    margin: 70px;
-    padding-top: 25px;
-    object-fit: cover; /* ให้วิดีโอครอบคลุมขนาดที่กำหนดโดยไม่ถูกบิดเบือน */
-  }
-  .media-container {
-    display: flex;
-    align-items: center; /* จัดแนวกลางแนวดิ่งถ้าต้องการ */
-    justify-content: space-between; 
-    margin-right: 50px;/* เว้นช่องว่างระหว่างวิดีโอและรูปภาพ */
   }
   .container {
     align-items: center; /* จัดแนวกลางในแนวดิ่ง */
@@ -290,19 +287,10 @@ nav ul li a {
     display: inline-block; /* ใช้ Flexbox จัดการกับตำแหน่ง */
     padding: 5px;
 }
-.fa-instagram{
-    cursor: pointer;
-}
-.fa-facebook{
-    cursor: pointer;
-}
-.fa-tiktok{
-    cursor: pointer;
-}
 footer {
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 22px; 
+    font-size: 25px; 
     background-color: #ffffff;
     color: #110391;
     position: fixed;
@@ -335,4 +323,11 @@ p6{
 }
 .p5{
     padding: 30px;
+}
+p9{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #ff6c6c;
 }

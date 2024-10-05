@@ -8,7 +8,7 @@ button{
     font-size: 16px; /* ขนาดตัวอักษรของปุ่ม */
 }
 body{
-    background-image: url('background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover;
     flex-direction: row-reverse; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
 }
 .bodyfirst {
-    background-image: url('background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover;
     flex-direction: row-reverse; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
@@ -24,7 +24,7 @@ body{
     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
 }
 .bodysecound {
-    background-image: url('background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover;
    
     object-fit: cover;
@@ -32,7 +32,7 @@ body{
     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
 }
 .bodythird {
-    background-image: url('background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover;
     flex-direction: row-reverse; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
@@ -40,7 +40,7 @@ body{
     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำกัน */
 }
 .bodyfour {
-    background-image: url('background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
+    background-image: url('../img/background name and simati domnic.svg'); /* ใส่รูปภาพพื้นหลัง */
     background-size: cover; /* ปรับขนาดรูปให้ครอบคลุมเต็มหน้าจอ */
     object-fit: cover;
     background-position: center; /* จัดตำแหน่งให้ตรงกลาง */
@@ -159,7 +159,7 @@ body, h1, h2, p, form, input, textarea, button {
     }
 }
 header {
-    background-image: url('DSC02171.jpg'); /* ใส่รูปภาพเป็นพื้นหลัง */
+    background-image: url('../img/DSC02171.jpg'); /* ใส่รูปภาพเป็นพื้นหลัง */
     background-size: cover;
     padding: 250px; /* ปรับขนาดรูปภาพให้ครอบคลุมเนื้อที่ */
     color: #ffffff; 
